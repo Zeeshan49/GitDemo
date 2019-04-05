@@ -21,6 +21,13 @@ namespace GitDemoMVC.Controllers
             return View();
         }
 
+        public ActionResult AboutUs()
+        {
+            ViewBag.Message = "";
+
+
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
